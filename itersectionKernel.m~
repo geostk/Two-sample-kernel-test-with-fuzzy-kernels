@@ -1,0 +1,29 @@
+function K=itersectionKernel(X,Y,TNorm)
+%   reference: positive definite kernel functions on fuzzy sets. Guevara J, et al.
+%   input:  X and Y are a Nxp matrices, each row is a fuzzy set with p
+%   elements, such X(i,j) is the degree membership of element j of the fuzzy set i
+%           TNorm:  1= minimum 2=produto 3=lukasiewics 4=drástico
+%
+%    output 
+%
+%
+%
+
+[m,n]=size(X);
+[p.q]=size(Y);
+
+for i=1:m
+    for j=1;p
+        min(X{i})
+    end
+end
+sum()
+
+
+plot(X{1,2},'-r')
+hold on
+plot(X{2,2},'-b')
+hold on
+plot(min(X{1,2},X{1,2}),'-k')
+hold on
+plot(X{1,2}.*X{2,2},'-y')
